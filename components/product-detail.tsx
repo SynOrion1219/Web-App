@@ -12,7 +12,7 @@ interface ProductDetailProps {
 
 export function ProductDetail({ product, onNavigate }: ProductDetailProps) {
   return (
-    <div className="w-full h-full flex items-center">
+    <div className="w-full h-full flex items-center" style={{ backgroundColor: "rgba(128, 0, 128, 1)" }}>
       <div className="w-full max-w-6xl mx-auto px-6 md:px-12 grid md:grid-cols-2 gap-8 md:gap-16 items-center">
         <div className="relative flex items-center justify-center order-2 md:order-1">
           <div className="relative w-full aspect-square max-w-sm">
